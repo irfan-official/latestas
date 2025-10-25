@@ -1,0 +1,110 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://plus.unsplash.com/premium_photo-1663088856417-87579e1c544b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1172",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://images.unsplash.com/photo-1611173622933-91942d394b04?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Canine Massage & Warm Therapy",
+    "providerName": "TheraPaws Wellness",
+    "providerEmail": "care@therapaws.com",
+    "price": 40,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Relaxing massage and heat therapy sessions for senior dogs or those with joint stiffness.",
+    "image": "https://plus.unsplash.com/premium_photo-1677166331844-c3e6124c05be?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+    "category": "Therapy"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Fur Conditioning & Detangling",
+    "providerName": "SoftTails Spa",
+    "providerEmail": "contact@softtails.com",
+    "price": 22,
+    "rating": 4.7,
+    "slotsAvailable": 6,
+    "description": "Deep-conditioning treatment to prevent dry winter fur and remove tangles painlessly.",
+    "image": "https://images.unsplash.com/photo-1699803811569-4f39a982e548?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fFdpbnRlciUyMEdyb29taW5nJTIwJTI2JTIwUGF3JTIwVHJlYXRtZW50fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Puppy Winter Care Consultation",
+    "providerName": "PawPro Clinic",
+    "providerEmail": "support@pawpro.com",
+    "price": 18,
+    "rating": 4.8,
+    "slotsAvailable": 5,
+    "description": "Consult with a pet expert to prepare your puppy for the cold season, diet tips included.",
+    "image": "https://plus.unsplash.com/premium_photo-1663013590728-33f48c9f6615?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+    "category": "Consultation"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Cat Cozy Blanket Customization",
+    "providerName": "MeowWorks Design",
+    "providerEmail": "info@meowworks.com",
+    "price": 28,
+    "rating": 4.6,
+    "slotsAvailable": 3,
+    "description": "Personalized fleece blankets sized for cats and small pets with embroidery options.",
+    "image": "https://plus.unsplash.com/premium_photo-1664357541544-fb0e6bdc4dd9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687",
+    "category": "Accessories"
+  },
+  {
+    "serviceId": 7,
+    "serviceName": "Winter Paw Wax Protection",
+    "providerName": "PawShield Co.",
+    "providerEmail": "hello@pawshield.com",
+    "price": 15,
+    "rating": 4.9,
+    "slotsAvailable": 8,
+    "description": "Protective paw wax applied to prevent cracks and salt irritation during winter walks.",
+    "image": "https://media.istockphoto.com/id/2172761067/photo/a-veterinarian-applies-wax-to-the-paws-of-a-jack-russell-terrier-dog.webp?a=1&b=1&s=612x612&w=0&k=20&c=W_0oeRgIOQqFhFuKP628S2Ss6wGj5AlK8oPljSgrx8U=",
+    "category": "Treatment"
+  },
+  {
+    "serviceId": 8,
+    "serviceName": "Heated Pet Bed Setup",
+    "providerName": "WarmNest Supplies",
+    "providerEmail": "sales@warmnest.com",
+    "price": 45,
+    "rating": 4.8,
+    "slotsAvailable": 4,
+    "description": "Installation and configuration of pet-safe heated beds with adjustable warmth levels.",
+    "image": "https://images.unsplash.com/photo-1672616488456-a05ba8f4eabd?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=735",
+    "category": "Comfort"
+  },
+  {
+    "serviceId": 9,
+    "serviceName": "Arctic Walk Gear Package",
+    "providerName": "FurAdventure Co.",
+    "providerEmail": "outdoors@furadventure.com",
+    "price": 60,
+    "rating": 5.0,
+    "slotsAvailable": 2,
+    "description": "Complete outdoor gear package including winter boots, coat, and leash for snowy walks.",
+    "image": "https://images.unsplash.com/photo-1642328399058-5e4d80550b6d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=735",
+    "category": "Outdoor Gear"
+  }
+]

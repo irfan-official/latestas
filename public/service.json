@@ -1,0 +1,497 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "serviceDetails": "At PawCare Studio, we specialize in crafting and fitting winter coats designed for your dog’s comfort, warmth, and mobility. Our fittings ensure each coat perfectly matches your pet’s size, shape, and fur type. We use premium insulated fabrics that are both breathable and water-resistant. The fitting session includes measurements, fabric selection, and adjustments for collar and belly straps. Whether your dog is small or large, we ensure freedom of movement without compromising warmth. Clients love our wide color selection, durable stitching, and the cheerful experience that keeps every furry friend looking stylish while staying cozy.",
+    "image": "https://plus.unsplash.com/premium_photo-1663088856417-87579e1c544b?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1172",
+    "category": "Clothing",
+    "reviews": 4500000,
+    "ratingAvg": 4.4,
+    "serviceTaken": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 3700000 }
+    ],
+    "reviewComments": [
+      {
+        "name": "Sophia Lee",
+        "image": "https://randomuser.me/api/portraits/women/12.jpg",
+        "rating": 5,
+        "comment": "Perfect fit for my golden retriever! The coat is soft, durable, and keeps him warm during walks."
+      },
+      {
+        "name": "Ryan Carter",
+        "image": "https://randomuser.me/api/portraits/men/14.jpg",
+        "rating": 4,
+        "comment": "Great service and fitting accuracy. Wish they had more color options though!"
+      },
+      {
+        "name": "Emily Brown",
+        "image": "https://randomuser.me/api/portraits/women/29.jpg",
+        "rating": 5,
+        "comment": "Very professional fitting. My dog looks adorable and stays cozy even in freezing weather."
+      },
+      {
+        "name": "Liam Johnson",
+        "image": "https://randomuser.me/api/portraits/men/17.jpg",
+        "rating": 4,
+        "comment": "The fabric quality is excellent. Delivery took a bit long but worth it."
+      },
+      {
+        "name": "Olivia Smith",
+        "image": "https://randomuser.me/api/portraits/women/7.jpg",
+        "rating": 5,
+        "comment": "Highly recommended! Great experience and the team handled my anxious pup with care."
+      }
+    ]
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "serviceDetails": "CozyPets Grooming provides a winter-special service that focuses on keeping your pet’s coat clean, soft, and hydrated during cold months. The session includes full grooming, trimming, paw cleaning, and a moisturizing paw balm treatment designed to prevent dryness and cracking. We use hypoallergenic, winter-safe shampoos enriched with natural oils for gentle nourishment. Our staff ensures a stress-free grooming experience and always treats pets with care and patience. After the session, your pet’s coat feels smooth, smells fresh, and paws are protected from harsh outdoor conditions, making every winter walk safer and more enjoyable for your furry companion.",
+    "image": "https://images.unsplash.com/photo-1611173622933-91942d394b04?auto=format&fit=crop&q=80&w=1170",
+    "category": "Grooming",
+    "reviews": 3200000,
+    "ratingAvg": 4.6,
+    "serviceTaken": 2400000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 2550000 }
+    ],
+    "reviewComments": [
+      {
+        "name": "Ava Williams",
+        "image": "https://randomuser.me/api/portraits/women/35.jpg",
+        "rating": 5,
+        "comment": "Loved how clean and fluffy my dog looked after grooming. The paw balm is amazing!"
+      },
+      {
+        "name": "Noah Davis",
+        "image": "https://randomuser.me/api/portraits/men/31.jpg",
+        "rating": 4,
+        "comment": "Nice staff and quick service. My dog enjoyed the treatment a lot."
+      },
+      {
+        "name": "Charlotte Moore",
+        "image": "https://randomuser.me/api/portraits/women/9.jpg",
+        "rating": 5,
+        "comment": "Highly satisfied! Paw treatment really helped with dryness this winter."
+      },
+      {
+        "name": "Ethan Miller",
+        "image": "https://randomuser.me/api/portraits/men/21.jpg",
+        "rating": 5,
+        "comment": "Professional grooming team, gentle with pets, and they use great products."
+      },
+      {
+        "name": "Amelia Johnson",
+        "image": "https://randomuser.me/api/portraits/women/28.jpg",
+        "rating": 4,
+        "comment": "Service was great but I wish appointments were easier to book."
+      }
+    ]
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Canine Massage & Warm Therapy",
+    "providerName": "TheraPaws Wellness",
+    "providerEmail": "care@therapaws.com",
+    "price": 40,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Relaxing massage and heat therapy sessions for senior dogs or those with joint stiffness.",
+    "serviceDetails": "TheraPaws Wellness provides specialized massage and warm therapy sessions tailored for dogs needing relaxation, pain relief, or mobility improvement. Our certified therapists use safe heating pads and massage techniques to increase blood flow, soothe muscles, and support joint flexibility. This service is particularly effective for aging dogs or breeds prone to stiffness. The environment is calm and temperature-controlled to help pets feel secure. Sessions can be customized for recovery support or general comfort. Many owners notice improved mood, energy, and movement after only a few visits. It’s a therapeutic experience designed to promote both health and happiness.",
+    "image": "https://plus.unsplash.com/premium_photo-1677166331844-c3e6124c05be?auto=format&fit=crop&q=80&w=1170",
+    "category": "Therapy",
+    "reviews": 1800000,
+    "ratingAvg": 4.7,
+    "serviceTaken": 1200000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1330000 }
+    ],
+    "reviewComments": [
+      {
+        "name": "Mason Clark",
+        "image": "https://randomuser.me/api/portraits/men/42.jpg",
+        "rating": 5,
+        "comment": "My senior Labrador feels so relaxed after each session. Great for his joints!"
+      },
+      {
+        "name": "Sophia White",
+        "image": "https://randomuser.me/api/portraits/women/24.jpg",
+        "rating": 4,
+        "comment": "Good therapy but limited weekend slots. Staff are very gentle with pets."
+      },
+      {
+        "name": "Logan Scott",
+        "image": "https://randomuser.me/api/portraits/men/38.jpg",
+        "rating": 5,
+        "comment": "Excellent therapy session. My dog now sleeps better and walks more easily."
+      },
+      {
+        "name": "Emma Davis",
+        "image": "https://randomuser.me/api/portraits/women/18.jpg",
+        "rating": 5,
+        "comment": "Really helps with my pug’s back pain. Highly recommend for older pets."
+      },
+      {
+        "name": "Henry Wilson",
+        "image": "https://randomuser.me/api/portraits/men/19.jpg",
+        "rating": 4,
+        "comment": "Therapists are skilled and kind. Slightly pricey but results are noticeable."
+      }
+    ]
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Fur Conditioning & Detangling",
+    "providerName": "SoftTails Spa",
+    "providerEmail": "contact@softtails.com",
+    "price": 22,
+    "rating": 4.7,
+    "slotsAvailable": 6,
+    "description": "Deep-conditioning treatment to prevent dry winter fur and remove tangles painlessly.",
+    "serviceDetails": "SoftTails Spa offers a luxurious fur conditioning and detangling treatment perfect for keeping your pet’s coat soft and healthy through dry winters. Our process includes a nourishing shampoo, gentle conditioner massage, and a specialized detangling comb-through that prevents matting. All products are formulated with natural oils and moisturizing agents safe for sensitive skin. We ensure minimal stress for your pet and focus on restoring shine and softness. This service is ideal for long-haired breeds or dogs that shed heavily. After the session, your pet’s fur becomes visibly smoother, easier to brush, and beautifully scented for days.",
+    "image": "https://images.unsplash.com/photo-1699803811569-4f39a982e548?auto=format&fit=crop&q=60&w=500",
+    "category": "Grooming",
+    "reviews": 2500000,
+    "ratingAvg": 4.5,
+    "serviceTaken": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1890000 }
+    ],
+    "reviewComments": [
+      {
+        "name": "Ella Perez",
+        "image": "https://randomuser.me/api/portraits/women/44.jpg",
+        "rating": 5,
+        "comment": "Fur feels silky smooth! My dog’s coat has never looked better."
+      },
+      {
+        "name": "James Hall",
+        "image": "https://randomuser.me/api/portraits/men/26.jpg",
+        "rating": 4,
+        "comment": "Nice detangling treatment. Smells great and lasts long."
+      },
+      {
+        "name": "Scarlett Adams",
+        "image": "https://randomuser.me/api/portraits/women/36.jpg",
+        "rating": 5,
+        "comment": "Affordable and effective. Perfect for long-haired pets during winter."
+      },
+      {
+        "name": "Michael Evans",
+        "image": "https://randomuser.me/api/portraits/men/30.jpg",
+        "rating": 5,
+        "comment": "Very gentle treatment and they used quality products."
+      },
+      {
+        "name": "Harper King",
+        "image": "https://randomuser.me/api/portraits/women/11.jpg",
+        "rating": 4,
+        "comment": "Good results but had to wait a bit for my appointment."
+      }
+    ]
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Puppy Winter Care Consultation",
+    "providerName": "PawPro Clinic",
+    "providerEmail": "support@pawpro.com",
+    "price": 18,
+    "rating": 4.8,
+    "slotsAvailable": 5,
+    "description": "Consult with a pet expert to prepare your puppy for the cold season, diet tips included.",
+    "serviceDetails": "PawPro Clinic’s winter care consultation offers new pet parents valuable guidance on keeping puppies healthy through cold months. Our veterinarians provide diet recommendations, hydration tips, and home environment adjustments to maintain warmth. The consultation covers coat care, exercise routines, and early signs of cold stress. We also educate owners on safe winter clothing and paw protection. Each session includes a personalized care sheet tailored to your puppy’s breed and age. The friendly, informative atmosphere ensures you leave confident and well-prepared. It’s the best start to ensuring your little one stays energetic and comfortable all season.",
+    "image": "https://plus.unsplash.com/premium_photo-1663013590728-33f48c9f6615?auto=format&fit=crop&q=80&w=1170",
+    "category": "Consultation",
+    "reviews": 2100000,
+    "ratingAvg": 4.7,
+    "serviceTaken": 1700000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1730000 }
+    ],
+    "reviewComments": [
+      {
+        "name": "Daniel Rivera",
+        "image": "https://randomuser.me/api/portraits/men/11.jpg",
+        "rating": 5,
+        "comment": "The consultation was super informative and my puppy is thriving this winter!"
+      },
+      {
+        "name": "Mila Clark",
+        "image": "https://randomuser.me/api/portraits/women/33.jpg",
+        "rating": 5,
+        "comment": "Vet gave great tips about nutrition and warmth for puppies."
+      },
+      {
+        "name": "Benjamin Hill",
+        "image": "https://randomuser.me/api/portraits/men/45.jpg",
+        "rating": 4,
+        "comment": "Very helpful advice but appointment times could be more flexible."
+      },
+      {
+        "name": "Luna Wright",
+        "image": "https://randomuser.me/api/portraits/women/19.jpg",
+        "rating": 5,
+        "comment": "Loved the session! Learned a lot about proper puppy care."
+      },
+      {
+        "name": "Jack Martinez",
+        "image": "https://randomuser.me/api/portraits/men/8.jpg",
+        "rating": 5,
+        "comment": "Excellent advice and friendly staff. Would definitely book again."
+      }
+    ]
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Cat Cozy Blanket Customization",
+    "providerName": "MeowWorks Design",
+    "providerEmail": "info@meowworks.com",
+    "price": 28,
+    "rating": 4.6,
+    "slotsAvailable": 3,
+    "description": "Personalized fleece blankets sized for cats and small pets with embroidery options.",
+    "serviceDetails": "MeowWorks Design crafts personalized blankets that combine comfort, quality, and charm. Each fleece blanket is handmade to your cat’s exact size and embroidered with their name or favorite motif. We use soft, high-density fleece for maximum warmth without heaviness. Our team helps you choose from colors and stitching styles that suit your home’s aesthetic. The result is a cozy resting space that cats immediately fall in love with. Perfect for naps, carriers, or beds, these blankets make excellent gifts. Our attention to detail and pet-safe materials guarantee durability and long-lasting comfort your cat will adore.",
+    "image": "https://plus.unsplash.com/premium_photo-1664357541544-fb0e6bdc4dd9?auto=format&fit=crop&q=80&w=687",
+    "category": "Accessories",
+    "reviews": 2800000,
+    "ratingAvg": 4.5,
+    "serviceTaken": 2300000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 2120000 }
+    ],
+    "reviewComments": [
+      {
+        "name": "Sophie Green",
+        "image": "https://randomuser.me/api/portraits/women/41.jpg",
+        "rating": 5,
+        "comment": "Adorable blanket with my cat’s name stitched perfectly. Super soft and cozy!"
+      },
+      {
+        "name": "Lucas Reed",
+        "image": "https://randomuser.me/api/portraits/men/27.jpg",
+        "rating": 4,
+        "comment": "Loved the customization options. Delivery was quick too!"
+      },
+      {
+        "name": "Isabella Ross",
+        "image": "https://randomuser.me/api/portraits/women/38.jpg",
+        "rating": 5,
+        "comment": "My kitten absolutely loves sleeping on this blanket. Great quality fabric!"
+      },
+      {
+        "name": "Owen Harris",
+        "image": "https://randomuser.me/api/portraits/men/37.jpg",
+        "rating": 4,
+        "comment": "Good service but I wish they offered more colors for embroidery."
+      },
+      {
+        "name": "Avery Johnson",
+        "image": "https://randomuser.me/api/portraits/women/22.jpg",
+        "rating": 5,
+        "comment": "Blanket feels premium. My cat can’t stop purring on it!"
+      }
+    ]
+  },
+  {
+    "serviceId": 7,
+    "serviceName": "Winter Paw Wax Protection",
+    "providerName": "PawShield Co.",
+    "providerEmail": "hello@pawshield.com",
+    "price": 15,
+    "rating": 4.9,
+    "slotsAvailable": 8,
+    "description": "Protective paw wax applied to prevent cracks and salt irritation during winter walks.",
+    "serviceDetails": "PawShield Co. provides specialized paw wax application that forms a gentle barrier against cold, salt, and rough ground. Ideal for dogs frequently walking outdoors, this treatment keeps paws moisturized and resilient. Our wax is handmade using beeswax and natural oils safe for licking. It’s easy to apply, non-greasy, and leaves a protective film lasting hours. We also teach owners how to reapply at home for consistent care. Perfect for urban or snowy environments, our paw wax prevents painful cracks and irritation. It’s a simple, effective way to protect your dog’s paws throughout the harsh winter season.",
+    "image": "https://media.istockphoto.com/id/2172761067/photo/a-veterinarian-applies-wax-to-the-paws-of-a-jack-russell-terrier-dog.webp?a=1&b=1&s=612x612&w=0&k=20&c=W_0oeRgIOQqFhFuKP628S2Ss6wGj5AlK8oPljSgrx8U=",
+    "category": "Treatment",
+    "reviews": 3900000,
+    "ratingAvg": 4.8,
+    "serviceTaken": 3400000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 3380000 }
+    ],
+    "reviewComments": [
+      {
+        "name": "Ella Rivera",
+        "image": "https://randomuser.me/api/portraits/women/20.jpg",
+        "rating": 5,
+        "comment": "The wax really protects my dog’s paws. No more cracks after walks!"
+      },
+      {
+        "name": "Liam Foster",
+        "image": "https://randomuser.me/api/portraits/men/15.jpg",
+        "rating": 4,
+        "comment": "Easy to apply and smells nice. Great winter solution for my pup."
+      },
+      {
+        "name": "Zoe Thompson",
+        "image": "https://randomuser.me/api/portraits/women/48.jpg",
+        "rating": 5,
+        "comment": "Fantastic product. My dog’s paws stay soft even after snowy walks."
+      },
+      {
+        "name": "Jackson Baker",
+        "image": "https://randomuser.me/api/portraits/men/9.jpg",
+        "rating": 5,
+        "comment": "Love it! Perfect for harsh winters. My dog doesn’t mind it at all."
+      },
+      {
+        "name": "Grace Martin",
+        "image": "https://randomuser.me/api/portraits/women/6.jpg",
+        "rating": 5,
+        "comment": "Affordable and effective. Definitely helps protect from salt and dryness."
+      }
+    ]
+  },
+  {
+    "serviceId": 8,
+    "serviceName": "Heated Pet Bed Setup",
+    "providerName": "WarmNest Supplies",
+    "providerEmail": "sales@warmnest.com",
+    "price": 45,
+    "rating": 4.8,
+    "slotsAvailable": 4,
+    "description": "Installation and configuration of pet-safe heated beds with adjustable warmth levels.",
+    "serviceDetails": "WarmNest Supplies offers professional installation and setup of heated pet beds to keep your pets warm and cozy throughout cold months. Our beds come with adjustable heat levels, safety cutoffs, and washable covers. During setup, we ensure proper temperature calibration based on pet size and fur type. We educate owners on usage and maintenance, guaranteeing long-term comfort and safety. Each bed uses energy-efficient heating elements approved for animal use. It’s the perfect combination of convenience and care, making winter naps a luxurious experience your pet will never want to end.",
+    "image": "https://images.unsplash.com/photo-1672616488456-a05ba8f4eabd?auto=format&fit=crop&q=80&w=735",
+    "category": "Comfort",
+    "reviews": 2500000,
+    "ratingAvg": 4.7,
+    "serviceTaken": 2100000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1980000 }
+    ],
+    "reviewComments": [
+      {
+        "name": "Mia Collins",
+        "image": "https://randomuser.me/api/portraits/women/5.jpg",
+        "rating": 5,
+        "comment": "The heated bed works like magic! My cat sleeps in it all day."
+      },
+      {
+        "name": "Oliver Scott",
+        "image": "https://randomuser.me/api/portraits/men/4.jpg",
+        "rating": 5,
+        "comment": "Installation was smooth, and safety features are excellent. Worth every penny!"
+      },
+      {
+        "name": "Abigail Lewis",
+        "image": "https://randomuser.me/api/portraits/women/17.jpg",
+        "rating": 4,
+        "comment": "Bed warms evenly but could use a longer power cord."
+      },
+      {
+        "name": "Logan Perez",
+        "image": "https://randomuser.me/api/portraits/men/28.jpg",
+        "rating": 5,
+        "comment": "Super cozy and energy efficient. My dogs love it!"
+      },
+      {
+        "name": "Evelyn Gray",
+        "image": "https://randomuser.me/api/portraits/women/16.jpg",
+        "rating": 4,
+        "comment": "Good product overall. Temperature settings are easy to adjust."
+      }
+    ]
+  },
+  {
+    "serviceId": 9,
+    "serviceName": "Arctic Walk Gear Package",
+    "providerName": "FurAdventure Co.",
+    "providerEmail": "outdoors@furadventure.com",
+    "price": 60,
+    "rating": 5.0,
+    "slotsAvailable": 2,
+    "description": "Complete outdoor gear package including winter boots, coat, and leash for snowy walks.",
+    "serviceDetails": "FurAdventure Co. brings you the ultimate Arctic Walk Gear Package, designed for comfort and safety during winter adventures. The package includes insulated boots, a waterproof coat, and a durable leash engineered for icy conditions. Each piece is lightweight, weatherproof, and tested to withstand extreme temperatures. Our fitting experts ensure your dog’s gear allows full mobility while offering warmth and protection. Ideal for hiking, camping, or daily walks in cold climates. Pet owners appreciate its premium quality and aesthetic appeal, ensuring your furry friend enjoys winter outings in comfort and style.",
+    "image": "https://images.unsplash.com/photo-1642328399058-5e4d80550b6d?auto=format&fit=crop&q=80&w=735",
+    "category": "Outdoor Gear",
+    "reviews": 4700000,
+    "ratingAvg": 4.9,
+    "serviceTaken": 4000000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 4240000 }
+    ],
+    "reviewComments": [
+      {
+        "name": "Henry Ward",
+        "image": "https://randomuser.me/api/portraits/men/13.jpg",
+        "rating": 5,
+        "comment": "The full set fits perfectly and is super durable for long hikes."
+      },
+      {
+        "name": "Chloe Adams",
+        "image": "https://randomuser.me/api/portraits/women/31.jpg",
+        "rating": 5,
+        "comment": "Excellent quality gear! Keeps my husky warm even in deep snow."
+      },
+      {
+        "name": "Samuel Turner",
+        "image": "https://randomuser.me/api/portraits/men/23.jpg",
+        "rating": 4,
+        "comment": "Everything fits well but wish the leash had more grip."
+      },
+      {
+        "name": "Ella Morris",
+        "image": "https://randomuser.me/api/portraits/women/39.jpg",
+        "rating": 5,
+        "comment": "Amazing package. My dog looks stylish and stays warm all day."
+      },
+      {
+        "name": "Jacob Price",
+        "image": "https://randomuser.me/api/portraits/men/40.jpg",
+        "rating": 5,
+        "comment": "Best outdoor kit I’ve bought. Great comfort and strong materials."
+      }
+    ]
+  }
+]
