@@ -145,9 +145,11 @@ function AuthContext({ children }) {
       await signOut(auth);
       setUser(null);
       alert("👋 Logged out successfully");
+      return { success: true };
     } catch (error) {
       console.error("Logout Error:", error.message);
       alert("Logout failed: " + error.message);
+      return { success: false };
     }
   };
 

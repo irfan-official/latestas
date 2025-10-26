@@ -3,10 +3,13 @@ import Nav from "../components/Nav.jsx";
 import Footer from "../components/Footer.jsx";
 import { FaRegEdit } from "react-icons/fa";
 import { Auth_Context } from "../context/AuthContext";
+import { useNavigate } from "react-router-dom";
 
 function MyProfile() {
   let [editForm, setEditForm] = useState(false);
-  let { user } = useContext(Auth_Context);
+  let { user, logOut } = useContext(Auth_Context);
+
+  const navigate = useNavigate();
 
   let [profileData, setProfileData] = useState({
     name: user.name,
@@ -40,10 +43,10 @@ function MyProfile() {
       <section className="w-full  bg-slate-900  text-white font-bold">
         <Nav />
       </section>
-      <div className="w-full min-h-[50vh] flex items-center justify-center ">
+      <div className="w-full min-h-[50vh] p-5 flex flex-col gap-5 items-center justify-center ">
         <form
           onSubmit={handleSubmit}
-          className="w-[35rem] border my:10 md:my-20 flex flex-col items-center gap-2 p-5 py-10 rounded shadow"
+          className="w-[22rem] md:w-[35rem] border mt-10 md:mt-20  flex flex-col items-center gap-2 p-5 py-10 rounded shadow"
         >
           <span className="__image__ w-24 h-24 border-3 rounded-full overflow-hidden bg-center object-center">
             <img
@@ -134,6 +137,23 @@ function MyProfile() {
             )}
           </section>
         </form>
+        <section className="__logout__ ">
+          <button
+            onClick={async () => {
+              try {
+                let result = await logOut();
+                if (result.success) {
+                  setTimeout(() => navigate("/"), 100);
+                }
+              } catch (error) {
+                alert("error => ", error.message);
+              }
+            }}
+            className="__logout-button__ w-[22rem] md:w-[35rem] mb-10 px-5 py-3 bg-slate-800 text-white hover:text-orange-400 rounded-md shadow-md cursor-pointer"
+          >
+            Logout
+          </button>
+        </section>
       </div>
       <Footer />
     </div>
