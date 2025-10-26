@@ -4,7 +4,7 @@ import { FaHandHoldingMedical } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 // import RatingsChart from "./RatingsChart.jsx";
 import { toast } from "react-toastify";
-import Page404 from "../pages/page404.jsx";
+import Page404 from "./Page404.jsx";
 import ClientComment from "../components/ClintComment.jsx";
 import { BsFillChatRightTextFill } from "react-icons/bs";
 import { Data_Context } from "../context/DataContext.jsx";

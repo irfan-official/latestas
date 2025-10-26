@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router";
 import Home from "../pages/Home.jsx";
-import page404 from "../pages/page404.jsx";
+import Page404 from "../pages/Page404.jsx";
 import Login from "../pages/Login.jsx";
 import Register from "../pages/Register.jsx";
 import Services from "../pages/Services.jsx";
@@ -44,8 +44,8 @@ const router = createBrowserRouter([
     Component: Register,
   },
   {
-    path: "/*",
-    Component: page404,
+    path: "*",
+    Component: Page404,
   },
 ]);
 
