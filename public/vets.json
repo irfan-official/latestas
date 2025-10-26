@@ -1,0 +1,51 @@
+[
+  {
+    "image": "https://media.istockphoto.com/id/1567312015/photo/happy-young-asian-woman-hugging-cute-grey-persian-cat-on-couch-in-living-room-at-home.webp?a=1&b=1&s=612x612&w=0&k=20&c=V_1RLb-F0cMnoQBF_bohJFvmXU_MyoIy6jEJDctUZKk=",
+    "name": "Sophia Bennett",
+    "nickName": "Pet Lover",
+    "rating": "4.9",
+    "statement": "My golden retriever loves their grooming services. The staff is kind, patient, and always treats every pet like family."
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1521247560470-d2cbfe2f7b47?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGV0JTIwbG92ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
+    "name": "Liam Carter",
+    "nickName": "Cat Whisperer",
+    "rating": "4.8",
+    "statement": "Finally found a pet care shop my picky cat enjoys! Their calming environment and treats make each visit completely stress-free."
+  },
+  {
+    "image": "https://plus.unsplash.com/premium_photo-1682097106788-3b84c39a9a87?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGV0JTIwbG92ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
+    "name": "Ava Thompson",
+    "nickName": "Puppy Trainer",
+    "rating": "5.0",
+    "statement": "I’ve seen great results after using their recommended training products. My pup listens better and enjoys playtime even more now."
+  },
+  {
+    "image": "https://media.istockphoto.com/id/1300658241/photo/young-man-is-playing-with-a-dog-and-do-selfie.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZCJgOB4UjnImPj1jEzv0ZXyrTTEWANF43M3k25Mnq7I=",
+    "name": "Ethan Miller",
+    "nickName": "Animal Rescuer",
+    "rating": "4.7",
+    "statement": "They always have healthy food options for rescued animals. I trust their brand completely for nutrition and long-term wellness support."
+  },
+  {
+    "image": "https://media.istockphoto.com/id/1244711728/photo/an-asian-chinese-teenager-girl-enjoying-her-raining-day-at-home-living-room-playing-with-her.webp?a=1&b=1&s=612x612&w=0&k=20&c=-tuFuNO2BdYWhxqHiy8R4sHbAkfLqhfs3gNv-JTVhYk=",
+    "name": "Olivia Johnson",
+    "nickName": "Bird Keeper",
+    "rating": "4.6",
+    "statement": "I love their bird care section! The toys, vitamins, and seeds are all high quality and reasonably priced for everyday pet owners."
+  },
+  {
+    "image": "https://media.istockphoto.com/id/2198220933/photo/best-friends.webp?a=1&b=1&s=612x612&w=0&k=20&c=MiHZXePETLmVkA5rP-u3f74Us1Ebeu3IEcAKS3hmdUs=",
+    "name": "Noah Davis",
+    "nickName": "Fish Tank Expert",
+    "rating": "4.8",
+    "statement": "Their aquarium accessories are amazing! The staff helped me pick the perfect filter and decorations for my tropical fish setup."
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2",
+    "name": "Emma Wilson",
+    "nickName": "Pet Groomer",
+    "rating": "5.0",
+    "statement": "The grooming kits I purchased here work flawlessly. My clients always compliment how shiny and soft their pets’ coats look afterward."
+  }
+]

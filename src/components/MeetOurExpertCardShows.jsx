@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -11,6 +11,15 @@ import "aos/dist/aos.css";
 function Hero() {
   useEffect(() => {
     Aos.init();
+  }, []);
+
+  let [vetsData, setVetsData] = useState(null);
+
+  useMemo(() => {
+    fetch("vets.json")
+      .then((res) => res.json())
+      .then((data) => setVetsData(data))
+      .catch((err) => console.error("Error loading JSON:", err));
   }, []);
 
   return (
@@ -36,13 +45,25 @@ function Hero() {
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
-          {[...Array(7)].map((_, i) => (
-            <SwiperSlide key={i} className="">
-              <section className="flex items-center justify-center">
-                <MeetOurExpertCard />
-              </section>
-            </SwiperSlide>
-          ))}
+          {vetsData ? (
+            vetsData.map(
+              ({ name, nickName, image, rating, statement }, index) => (
+                <SwiperSlide key={index} className="">
+                  <section className="flex items-center justify-center">
+                    <MeetOurExpertCard
+                      name={name}
+                      nickName={nickName}
+                      image={image}
+                      rating={rating}
+                      statement={statement}
+                    />
+                  </section>
+                </SwiperSlide>
+              )
+            )
+          ) : (
+            <span className="loading loading-spinner loading-xl"></span>
+          )}
         </Swiper>
       </div>
     </div>

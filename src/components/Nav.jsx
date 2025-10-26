@@ -150,7 +150,7 @@ function Nav() {
               </div>
               {hoverDiv && (
                 <div className="absolute z-[9999999999999] -bottom-15 -right-[20%] min-w-22 bg-white/30 backdrop-blur-2xl rounded-md">
-                  <section className="w-full h-full flex items-center justify-center px-3 py-3">
+                  <section className="w-full h-full text-black flex items-center justify-center px-3 py-3">
                     {user.email}
                   </section>
                 </div>
