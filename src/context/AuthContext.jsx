@@ -88,16 +88,35 @@ function AuthContext({ children }) {
     }
   };
 
-  const update = async (name, email, image) => {
-    if (user.email != email) {
-      await updateEmail(user, email);
-    }
+  const update = async ({ name, email, image }) => {
+    try {
+      const currentUser = auth.currentUser;
+      
+      if (!currentUser) throw new Error("No authenticated user found.");
 
-    if (user.name != name && user.image != image) {
-      await updateProfile(user, {
-        displayName: name,
-        photoURL: image,
+      if (currentUser.email !== email) {
+        await updateEmail(currentUser, email);
+      }
+
+      if (currentUser.displayName !== name || currentUser.photoURL !== image) {
+        await updateProfile(currentUser, {
+          displayName: name,
+          photoURL: image,
+        });
+      }
+
+      setUser({
+        name,
+        email,
+        image,
       });
+
+      alert("✅ Profile updated successfully!");
+      return { success: true };
+    } catch (error) {
+      console.error("Update Error =>", error.message);
+      alert("❌ Update failed: " + error.message);
+      return { success: false, error };
     }
   };
 
@@ -165,6 +184,7 @@ function AuthContext({ children }) {
         emailLogin,
         emailSignUp,
         createdUser,
+        update,
       }}
     >
       {children}

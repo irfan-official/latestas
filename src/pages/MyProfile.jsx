@@ -7,9 +7,11 @@ import { useNavigate } from "react-router-dom";
 
 function MyProfile() {
   let [editForm, setEditForm] = useState(false);
-  let { user, logOut } = useContext(Auth_Context);
+  let { user, logOut, update } = useContext(Auth_Context);
 
   const navigate = useNavigate();
+
+  let [updateFormField, setUpdateFormFiels] = useState(false);
 
   let [profileData, setProfileData] = useState({
     name: user.name,
@@ -19,6 +21,15 @@ function MyProfile() {
 
   function handleSubmit(e) {
     e.preventDefault();
+
+    if (updateFormField) {
+      update(profileData);
+    }
+  }
+
+  function handleFormInput(e) {
+    setUpdateFormFiels(true);
+    setProfileData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   }
 
   const textareaRef = useRef(null);
@@ -59,7 +70,8 @@ function MyProfile() {
             <span className="__name__ w-full  md:w-full justify-center mt-3 md:mt-5 flex items-center gap-5 ">
               <span className="text-center  w-[30%] ">Name:</span>
               <input
-                value={user.name}
+                onChange={handleFormInput}
+                value={profileData.name}
                 disabled={!editForm}
                 name="name"
                 placeholder="name"
@@ -72,7 +84,8 @@ function MyProfile() {
             <span className="__email__ w-full justify-center flex items-center gap-5">
               <span className="w-[30%] text-center">Email:</span>
               <input
-                value={user.email}
+                onChange={handleFormInput}
+                value={profileData.email}
                 disabled={!editForm}
                 name="email"
                 placeholder="email"
@@ -85,11 +98,12 @@ function MyProfile() {
             <span className="__img-URL__ w-full  justify-center flex items-center gap-5">
               <span className="w-[30%] h-full  text-center">Image URL:</span>
               <textarea
+                onChange={handleFormInput}
                 ref={textareaRef}
                 onInput={handleInput}
-                value={user.image}
+                value={profileData.image}
                 disabled={!editForm}
-                name="imageURL"
+                name="image"
                 placeholder="imageURL"
                 className={`border w-[70%]  border-black resize-none px-3 py-1 rounded-sm ${
                   editForm ? "border-lime-600" : "border-black"
