@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useEffect, useRef, useContext } from "react";
 import Nav from "../components/Nav.jsx";
 import Footer from "../components/Footer.jsx";
 import { FaRegEdit } from "react-icons/fa";
@@ -7,9 +7,34 @@ import { Auth_Context } from "../context/AuthContext";
 function MyProfile() {
   let [editForm, setEditForm] = useState(false);
   let { user } = useContext(Auth_Context);
+
+  let [profileData, setProfileData] = useState({
+    name: user.name,
+    email: user.email,
+    image: user.image,
+  });
+
   function handleSubmit(e) {
     e.preventDefault();
   }
+
+  const textareaRef = useRef(null);
+
+  // Auto resize whenever value changes
+  useEffect(() => {
+    const textarea = textareaRef.current;
+    if (textarea) {
+      textarea.style.height = "auto"; // reset height
+      textarea.style.height = textarea.scrollHeight + "px"; // set to scroll height
+    }
+  }, [profileData.image]);
+
+  function handleInput(e) {
+    const textarea = e.target;
+    textarea.style.height = "auto";
+    textarea.style.height = textarea.scrollHeight + "px";
+  }
+
   return (
     <div className="w-full min-h-screen ">
       <section className="w-full  bg-slate-900  text-white font-bold">
@@ -55,14 +80,15 @@ function MyProfile() {
               />
             </span>
             <span className="__img-URL__ w-full  justify-center flex items-center gap-5">
-              <span className="w-[30%]  text-center">Image URL:</span>
-
+              <span className="w-[30%] h-full  text-center">Image URL:</span>
               <textarea
+                ref={textareaRef}
+                onInput={handleInput}
                 value={user.image}
                 disabled={!editForm}
                 name="imageURL"
                 placeholder="imageURL"
-                className={`border w-[70%] border-black  px-3 py-1 rounded-sm ${
+                className={`border w-[70%]  border-black resize-none px-3 py-1 rounded-sm ${
                   editForm ? "border-lime-600" : "border-black"
                 }`}
               ></textarea>
