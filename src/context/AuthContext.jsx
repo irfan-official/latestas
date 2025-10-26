@@ -143,7 +143,8 @@ function AuthContext({ children }) {
   const logOut = async () => {
     try {
       await signOut(auth);
-      setUser(null);
+      setTimeout(() => setUser(null), 0);
+
       alert("👋 Logged out successfully");
       return { success: true };
     } catch (error) {

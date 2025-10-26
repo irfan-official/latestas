@@ -143,7 +143,7 @@ function MyProfile() {
               try {
                 let result = await logOut();
                 if (result.success) {
-                  setTimeout(() => navigate("/"), 100);
+                  setTimeout(() => navigate("/"), 10);
                 }
               } catch (error) {
                 alert("error => ", error.message);
